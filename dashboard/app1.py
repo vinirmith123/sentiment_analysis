@@ -6,7 +6,7 @@ import plotly.express as px
 df = pd.read_csv(r"C:\Users\CHARAN TEJA\Downloads\lg\lg\twitter_analytics_task\notebooks\final_analysis_with_predictions.csv")
 
 st.set_page_config(page_title="DMV Tweet Sentiment Dashboard", layout="wide")
-st.title("🚗 DMV Twitter Sentiment Dashboard")
+st.title("Twitter Sentiment Dashboard")
 
 # Sidebar: Topic selector
 all_topics = df['topic'].dropna().unique().tolist()

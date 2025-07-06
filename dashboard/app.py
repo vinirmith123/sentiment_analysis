@@ -6,7 +6,7 @@ from bertopic import BERTopic
 
 # ✅ Streamlit config
 st.set_page_config(page_title="DMV Tweet Sentiment Dashboard", layout="wide")
-st.title("🚗 DMV Twitter Sentiment Dashboard (Improved)")
+st.title("Twitter Sentiment Dashboard (Improved)")
 
 # ✅ Load data
 df = pd.read_csv("data/final_analysis_with_predictions.csv")
