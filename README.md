@@ -1,4 +1,4 @@
-# 🚗 DMV Twitter Sentiment & Emotion Analysis
+ Twitter Sentiment & Emotion Analysis
 
 This project identifies and analyzes the **sentiments**, **emotions**, and **topics** of tweets addressed to the **California Department of Motor Vehicles (DMV)**.
 
@@ -8,17 +8,17 @@ The goal is to help the DMV understand public opinion about services such as lic
 
 ## 📦 Project Structure
 
-├── app.py # 🚀 Streamlit dashboard for final analytics
-├── train_test.ipynb # 🧠 Notebook for training & testing models
-├── sentiment.py # ⚙️ Script version of the improved NLP pipeline
-├── data/
-│ ├── emotions_train.csv
-│ ├── training_senti.csv
-│ ├── twitter_final_extract_cadmv.p
-│ ├── final_analysis_with_predictions.csv
-├── bertopic_model/ # 📚 Saved topic model
-├── requirements.txt # 📌 Python dependencies
-└── README.md # 📄 This file
+
+**Contents:**
+- `app.py` — 🚀 Streamlit dashboard for final analytics
+- `train_test.ipynb` — 🧠 Notebook for training & testing models
+- `sentiment.py` — ⚙️ Script version of the improved NLP pipeline
+- `data/` — 📂 All raw & processed datasets
+- `bertopic_model/` — 📚 Saved BERTopic model
+- `model_metrics.txt` — 📊 Validation metrics from training
+- `requirements.txt` — 📌 Python dependencies
+- `README.md` — 📄 This file
+
 
 
 ---
